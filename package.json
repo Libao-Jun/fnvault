@@ -1,7 +1,7 @@
 {
   "name": "fnvault",
   "version": "2.0.1",
-  "description": "用笔锚定记忆中的常用 JavaScript / TypeScript 工具集，一个轻量级的实工具库",
+  "description": "前端常用工具函数宝库（fn = function + vault = 宝库）/ A lightweight, zero-dependency collection of frontend utility functions. 轻量、零依赖、支持 Tree-shaking 的 JavaScript / TypeScript 常用工具函数库",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "build": "rimraf dist && rolldown -c rolldown.config.js && node scripts/strip-dts-comments.mjs",
+    "build": "rimraf dist && rolldown -c rolldown.config.js",
     "test": "vitest"
   },
   "files": [
@@ -27,7 +27,18 @@
     "utility",
     "typescript",
     "helper",
-    "functions"
+    "functions",
+    "frontend",
+    "前端",
+    "前端工具",
+    "工具函数",
+    "工具库",
+    "工具集",
+    "轻量级",
+    "零依赖",
+    "zero-dependency",
+    "tree-shaking",
+    "javascript"
   ],
   "author": "newborn_calf",
   "license": "MIT",
