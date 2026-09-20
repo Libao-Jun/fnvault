@@ -24,7 +24,10 @@
     "fnvault",
     "utils",
     "tools",
-    "utility"
+    "utility",
+    "typescript",
+    "helper",
+    "functions"
   ],
   "author": "newborn_calf",
   "license": "MIT",
