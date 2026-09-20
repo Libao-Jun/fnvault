@@ -1,17 +1,17 @@
-# pen-it
+# fnvault
 
 用 “笔” 锚定记忆中常用的 JavaScript / TypeScript 工具集，一个轻量级的实用工具库，零依赖，支持 Tree-shaking。
 
 ## 安装
 
 ```bash
-pnpm add pen-it
+pnpm add fnvault
 ```
 
 ## 使用
 
 ```ts
-import { isArray, formatFull, deepClone, unique } from "pen-it";
+import { isArray, formatFull, deepClone, unique } from "fnvault";
 ```
 
 ## 运行环境
@@ -28,7 +28,7 @@ import { isArray, formatFull, deepClone, unique } from "pen-it";
 
 > **最低完整支持**：Chrome 98+ / Firefox 94+ / Safari 15.4+ / Node 18+
 
-ES5 环境（如 IE11）无法直接使用，需通过 Babel 等工具对 `node_modules/pen-it` 进行二次编译并补充 polyfill。
+ES5 环境（如 IE11）无法直接使用，需通过 Babel 等工具对 `node_modules/fnvault` 进行二次编译并补充 polyfill。
 
 ## API
 

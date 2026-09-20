@@ -1,5 +1,5 @@
 {
-  "name": "pen-it",
+  "name": "fnvault",
   "version": "2.0.1",
   "description": "用笔锚定记忆中的常用 JavaScript / TypeScript 工具集，一个轻量级的实工具库",
   "type": "module",
@@ -21,7 +21,7 @@
     "dist"
   ],
   "keywords": [
-    "pen-it",
+    "fnvault",
     "utils",
     "tools",
     "utility"
@@ -30,11 +30,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Libao-Jun/pen-it"
+    "url": "https://github.com/Libao-Jun/fnvault"
   },
-  "homepage": "https://github.com/Libao-Jun/pen-it#readme",
+  "homepage": "https://github.com/Libao-Jun/fnvault#readme",
   "bugs": {
-    "url": "https://github.com/Libao-Jun/pen-it/issues"
+    "url": "https://github.com/Libao-Jun/fnvault/issues"
   },
   "packageManager": "pnpm@10.19.0",
   "devDependencies": {
