@@ -4,14 +4,14 @@
 
 📘 English version: [README.en.md](./README.en.md)
 
-fnvault 是一个**零依赖、支持 Tree-shaking** 的轻量级前端工具函数库，把日常开发中零散又易忘的小工具收拢归一——类型判断、时间日期与货币格式化、字符串处理、深拷贝与数组操作、`localStorage` / Cookie、浏览器增强（URL、剪贴板、防抖节流等）以及常用格式校验，开箱即用、按需引入。
+fnvault 是一个**零依赖、支持 Tree-shaking** 的轻量级前端工具函数库，把日常开发中零散又易忘的小工具收拢归一 — 类型判断、时间日期与货币格式化、字符串处理、深拷贝与数组操作、`localStorage` / Cookie、浏览器增强（URL、剪贴板、防抖节流等）以及常用格式校验，开箱即用、按需引入。
 
-> fnvault = **fn**（function，函数）+ **vault**（宝库）。一个轻量的函数宝库：把项目里要用的各类前端常用工具函数——类型判断、时间日期、格式化、拷贝、存储、浏览器增强等——都收进同一个保险库，随用随取。
+> fnvault = **fn**（function，函数）+ **vault**（宝库）。一个轻量的函数宝库：把项目里要用的各类前端常用工具函数——类型判断、时间日期、格式化、拷贝、存储、浏览器增强等 — 都收进同一个保险库，随用随取。
 
-**适合**：不想为几个函数引入 lodash 等重型依赖、追求按需 Tree-shaking 的前端 / Node 项目。
-**不适合**：仍需兼容 IE11 等 ES5 环境，或需要完整高阶数据结构工具框架的场景。
+- **适合**：不想为几个函数引入 lodash 等重型依赖、追求按需 Tree-shaking 的前端 / Node 项目。
+- **不适合**：仍需兼容 IE11 等 ES5 环境，或需要完整高阶数据结构工具框架的场景。
 
-`fnvault` —— 轻量、零依赖、Tree-shaking 友好的 JavaScript / TypeScript 常用工具集。
+`fnvault` — 轻量、零依赖、Tree-shaking 友好的 JavaScript / TypeScript 常用工具集。
 
 ---
 
