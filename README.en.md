@@ -1,6 +1,6 @@
 # fnvault
 
-> A treasure vault of everyday frontend utility functions · A lightweight, zero-dependency collection of frontend utility functions.
+> fnvault — a lightweight, zero-dependency, Tree-shaking-friendly collection of common JavaScript / TypeScript frontend utility functions (a treasure vault of everyday frontend helpers).
 
 fnvault is a **zero-dependency, Tree-shaking-friendly** lightweight library of frontend utilities. It gathers the scattered, easy-to-forget helpers you reach for daily — type checking, date/time and currency formatting, string manipulation, deep clone and array operations, `localStorage` / Cookie, browser enhancements (URL, clipboard, debounce/throttle, etc.) and common validators — ready to use out of the box, import on demand.
 
@@ -8,8 +8,6 @@ fnvault is a **zero-dependency, Tree-shaking-friendly** lightweight library of f
 
 **Great for**: frontend / Node projects that don't want to pull in heavy deps like lodash just for a few functions, and value on-demand Tree-shaking.
 **Not for**: environments that still require IE11 / ES5, or scenarios needing a full-fledged high-level data-structure utility framework.
-
-`fnvault` — a lightweight, zero-dependency, Tree-shaking-friendly collection of common JavaScript / TypeScript utilities.
 
 ---
 

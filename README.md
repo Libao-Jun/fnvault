@@ -1,6 +1,6 @@
 # fnvault
 
-> 前端常用工具函数宝库 · A lightweight, zero-dependency collection of frontend utility functions.
+> **fnvault** —— 轻量、零依赖、Tree-shaking 友好的 JavaScript / TypeScript 前端常用工具函数宝库 · A lightweight, zero-dependency, Tree-shaking-friendly collection of frontend utility functions.
 
 📘 English version: [README.en.md](./README.en.md)
 
@@ -10,8 +10,6 @@ fnvault 是一个**零依赖、支持 Tree-shaking** 的轻量级前端工具函
 
 - **适合**：不想为几个函数引入 lodash 等重型依赖、追求按需 Tree-shaking 的前端 / Node 项目。
 - **不适合**：仍需兼容 IE11 等 ES5 环境，或需要完整高阶数据结构工具框架的场景。
-
-`fnvault` — 轻量、零依赖、Tree-shaking 友好的 JavaScript / TypeScript 常用工具集。
 
 ---
 
