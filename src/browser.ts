@@ -10,13 +10,17 @@
  * @example
  * getUrlParams('https://x.com/?a=1&b=2') // { a: '1', b: '2' }
  */
-export const getUrlParams = (url?: string): Record<string, string> => {
-  const params: Record<string, string> = {};
-  new URL(url || window.location.href).searchParams.forEach((val, key) => {
-    params[key] = val;
-  });
-  return params;
-};
+const resolveUrl = (url?: string): URL => new URL(url ?? window.location.href);
+
+/**
+ * 解析 URL 的查询字符串（search params）为键值对对象。
+ * @param url - 可选的目标 URL；省略时使用当前页面地址 `window.location.href`
+ * @returns 以参数名为键、参数值为值的对象（值均为字符串）
+ * @example
+ * getUrlParams('https://x.com/?a=1&b=2') // { a: '1', b: '2' }
+ */
+export const getUrlParams = (url?: string): Record<string, string> =>
+  Object.fromEntries(resolveUrl(url).searchParams);
 
 /**
  * 读取 URL 中单个查询参数的值。
@@ -27,9 +31,8 @@ export const getUrlParams = (url?: string): Record<string, string> => {
  * getUrlParam('a', 'https://x.com/?a=1') // '1'
  * getUrlParam('x', 'https://x.com/?a=1') // null
  */
-export const getUrlParam = (key: string, url?: string): string | null => {
-  return new URL(url || window.location.href).searchParams.get(key);
-};
+export const getUrlParam = (key: string, url?: string): string | null =>
+  resolveUrl(url).searchParams.get(key);
 
 /**
  * 将普通对象转换为 URL 查询字符串（已对键名/值进行 `encodeURIComponent` 编码）。

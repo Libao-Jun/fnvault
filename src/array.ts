@@ -61,7 +61,10 @@ export const sortByKey = <T extends Record<string, any>>(
   arr: T[],
   key: keyof T,
   order: "asc" | "desc" = "asc",
-): T[] => [...arr].sort((a, b) => order === "asc" ? a[key] - b[key] : b[key] - a[key])
+): T[] => {
+  const factor = order === "asc" ? 1 : -1
+  return [...arr].sort((a, b) => (a[key] - b[key]) * factor)
+}
 
 /**
  * 将类数组（ArrayLike）/可迭代对象转换为真正的数组。
