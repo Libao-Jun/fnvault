@@ -1,6 +1,6 @@
 # fnvault
 
-> **fnvault** —— 轻量、零依赖、Tree-shaking 友好的 JavaScript / TypeScript 前端常用工具函数宝库 · A lightweight, zero-dependency, Tree-shaking-friendly collection of frontend utility functions.
+> **fnvault** — 轻量、零依赖、Tree-shaking 友好的 JavaScript / TypeScript 前端常用工具函数宝库 · A lightweight, zero-dependency, Tree-shaking-friendly collection of frontend utility functions.
 
 📘 English version: [README.en.md](./README.en.md)
 
